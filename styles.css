@@ -62,14 +62,14 @@ html, body {
 .web-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 2em;
     font-family: "Metal Mania";
     font-weight: normal;
     color: white;
 }
 
 .web-name-large {
-    font-size: 8em;
+    font-size: 6em;
 }
 
 .content-section {
@@ -169,36 +169,36 @@ html, body {
     background-color: #2D9CDB;
 }
 
-.tour-row {
+.event-row {
     border-bottom: 1px solid black;
     padding-bottom: 1em;
     margin-bottom: 1em;
 }
 
-.tour-row:last-child {
+.event-row:last-child {
     border: none;
 }
 
-.tour-item {
+.event-item {
     display: inline-block;
     padding-right: .5em;
 }
 
-.tour-date {
+.event-date {
     color: #555;
     width: 11%;
     font-weight: bold;
 }
 
-.tour-city {
+.event-city {
     width: 24%;
 }
 
-.tour-arena {
+.event-arena {
     width: 42%;
 }
 
-.tour-btn {
+.event-btn {
     max-width: 19%;
 }
 
@@ -218,6 +218,7 @@ html, body {
 
 .shop-item-image {
     height: 250px;
+    width: 250px;
 }
 
 .shop-item-details {
